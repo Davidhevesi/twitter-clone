@@ -15,8 +15,8 @@ import { Button } from "@material-ui/core";
 import "./Sidebar.css"
 function Sidebar() {
   return (
-    <div>
-      <TwitterIcon />
+    <div className="sidebar">
+      <TwitterIcon className="twitter__icon" />
       <SidebarOption active Icon={Home} text="Home" />
       <SidebarOption Icon={Search} text="Explore" />
       <SidebarOption Icon={Notifications} text="Notifications" />

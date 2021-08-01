@@ -1,15 +1,18 @@
 import "./App.css";
-import Sidebar from "./Navigation/Sidebar/Sidebar"
+import Feed from "./Feed/Feed";
+import Sidebar from "./Navigation/Sidebar/Sidebar";
+import Widgets from "./Widgets/Widgets";
 
 function App() {
   return (
     // BEM
     <div className="app">
-      <h1>hello</h1>
       {/* Sidebar */}
-     <Sidebar />
+      <Sidebar />
       {/* Feed */}
+      <Feed />
       {/* Widgets */}
+      <Widgets />
     </div>
   );
 }
