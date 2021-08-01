@@ -12,7 +12,7 @@ import {
   Search,
 } from "@material-ui/icons";
 import { Button } from "@material-ui/core";
-import "./Sidebar.css"
+import "./Sidebar.css";
 function Sidebar() {
   return (
     <div className="sidebar">

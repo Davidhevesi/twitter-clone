@@ -7,13 +7,11 @@ function Tweetbox() {
     <div className="tweetBox">
       <form>
         <div className="tweetBox__input">
-          <Avatar />
+          <Avatar src="https://yt3.ggpht.com/yti/APfAmoG75AhJicU3CgtiWo0SoV2FQL6K0-en8_WGK3Uebw=s88-c-k-c0x00ffffff-no-rj-mo" />
           <input placeholder="What is happening" />
           {/* <input placeholder="What is happening" /> */}
         </div>
-        <div>
-          <Button className="tweetBox_tweetButton">Tweet</Button>
-        </div>
+        <Button className="tweetBox_tweetButton">Tweet</Button>
       </form>
     </div>
   );
